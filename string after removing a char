@@ -1,0 +1,8 @@
+str=input("Enter the string:")
+cha=input("Enter a string to remove:")
+newtxt=""
+for i in range(len(str)):
+    if str[i]not in cha and str[i] not in cha:
+        newtxt+=str[i]
+print("txt after removing the character",cha,"and",cha,"is:",newtxt)
+
