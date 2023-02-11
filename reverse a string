@@ -1,0 +1,5 @@
+s1=input("enter the string:")
+s2=list(s1.split(" "))
+for i in s2:
+    s3=s2[::-1]
+print(*s3)
