@@ -1,0 +1,27 @@
+def sumsquare(l1):
+    l2=[]
+    l3=[]
+    sum=0
+    sum1=0
+    result=[]
+    for i in l1:
+        if i%2==0:
+            l2.append(i)
+        else:
+            l3.append(i)
+    for j in l2:
+        u=j**2
+        sum+=u
+    result.append(sum)    
+    for k in l3:
+        v=k**2
+        sum1+=v
+    result.append(sum1) 
+    print(result)
+
+lis=[]
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    ele = int(input())
+    lis.append(ele)
+sumsquare(lis)
