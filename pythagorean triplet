@@ -1,0 +1,16 @@
+m=eval(input("Enter the limit:"))
+while True:
+    x=True
+    if(m==0 or type(m)==float or type(m)==str or m<0):
+        print("Invalid Input")
+        x=False
+        break
+    elif(x==True):
+        n=m-1
+        if(n>0):
+            for a in range(1,n-1):
+                for b in range(a+1,n):
+                    for c in range(b+1,n+1):
+                        if(a*a+b*b==c*c):
+                            print(a,b,c)
+    break
