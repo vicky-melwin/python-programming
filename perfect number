@@ -1,0 +1,12 @@
+num=int(input("Enter a number:"))
+f=[ ]
+sum=0
+for i in  range(1,sum):
+    if(num%i==0):
+        sum=sum+i
+        f.append(i)
+print(f)
+if(sum==num):
+        print("It is a perfect number")
+else:
+        print("It is not a perfect number")
