@@ -1,0 +1,5 @@
+str1=input("Enter a string:")
+cha=input("Enter a character to find:")
+for i in range(len(str1)):
+    if str1[i] in cha:
+        print("The index of the character is:",i+1)
