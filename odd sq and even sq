@@ -1,0 +1,18 @@
+n=int(input("n="))
+l=[]
+while True:
+    if len(l)==n:
+        break
+    else:
+        num=int(input("Enter:"))
+        l.append(num)
+print(l)
+odd=[]
+even=[]
+for i in range(len(l)):
+    if l[i]%2==0:
+        even.append(l[i])
+    else:
+        odd.append(l[i])
+print(odd)
+print(even)
