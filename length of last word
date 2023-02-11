@@ -1,0 +1,6 @@
+str1=input("Enter the string:")
+s1=str1.split(" ")
+revstr=s1[::-1]
+print("The last word of the sentence is : ",revstr[0])
+print("The length of the last word of the sentence is: ",len(revstr[0]))
+
