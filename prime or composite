@@ -1,0 +1,16 @@
+l1=[10,15,11,9,22,55]
+prime=[]
+composite=[]
+for num in l1:
+    if num==2:
+        prime.append(num)
+    else:
+        for i in range(2,num):
+            if num%2==0:
+                composite.append(num)
+                break
+            else:
+                prime.append(num)
+                break
+print("prime=",prime, "length = ",len(prime))
+print("composite=",composite,"length = ",len(composite))
