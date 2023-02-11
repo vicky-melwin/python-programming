@@ -1,0 +1,7 @@
+import itertools
+num=[1,1,2]
+p=list(itertools.permutations(num))
+for i in p:
+    if i not in res:
+        res.append(i)
+print(res) 
